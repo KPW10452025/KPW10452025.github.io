@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: green;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>How to use git in terminal?</title>
+    <meta name="description" content="Commonly used syntax of git in terminal.">
+    <meta name="keywords" content='blog, Webb Kuo, git'>
+
+    <meta property="og:url" content="https://KPW10452025.github.io/posts/001_how_to_use_git_in_terminal/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="How to use git in terminal?">
+    <meta property="og:description" content="Commonly used syntax of git in terminal.">
+    <meta property="og:image" content="/images/author.jpeg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How to use git in terminal?">
+    <meta name="twitter:description" content="Commonly used syntax of git in terminal.">
+    <meta property="twitter:domain" content="https://KPW10452025.github.io/posts/001_how_to_use_git_in_terminal/">
+    <meta property="twitter:url" content="https://KPW10452025.github.io/posts/001_how_to_use_git_in_terminal/">
+    <meta name="twitter:image" content="/images/author.jpeg">
+
+    
+    <link rel="canonical" href="https://KPW10452025.github.io/posts/001_how_to_use_git_in_terminal/" />
+
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="/css/dark.css">
+
+    <script src="/js/svg-injector.min.js"></script>
+    <script src="/js/feather-icons.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://KPW10452025.github.io">
+                <img src="/images/author.jpeg" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://KPW10452025.github.io">Webb</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="/"> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="/posts/"> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="/tags/"> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/KPW10452025"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="/"> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="/posts/"> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="/tags/"> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/KPW10452025"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>How to use git in terminal?</h1>
+        <small role="doc-subtitle">Commonly used syntax of git in terminal.</small>
+        <p class="post-date">
+            July 17, 2021
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="/tags/git">git</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <h4 id="基本常用-code"><strong>「基本常用 Code」</strong></h4>
+<ul>
+<li>git init
+將一個資料夾初始化後，可以開始使用 git 版本管理</li>
+<li>git log
+查看先前詳細的 commit 記錄。</li>
+<li>git log &ndash;oneline
+查看先前簡易的 commit 記錄。</li>
+<li>git log  &ndash;graph
+查看先前詳細的 commit 記錄，視覺化分支。</li>
+<li>git reflog
+查看全部的 commit 記錄，包含跳版本的紀錄。（reference 參考）</li>
+<li>git status
+檢查本地端檔案異動狀態。</li>
+<li>git status -s
+檢查本地端檔案異動狀態。（簡易顯示）</li>
+<li>git add [檔案或資料夾]
+將指定的檔案或資料夾，加入版本控制。</li>
+<li>git add .
+將全部的檔案或資料夾，加入版本控制。</li>
+<li>git commit
+提交（commit）目前的異動。
+<ul>
+<li>會進入提交頁面。</li>
+<li>按 s 鍵，進入INSERT狀態，並輸入將要提交的文字備註內容。</li>
+<li>輸入完備註內容後按 esc (鍵盤左上角)，退出編輯狀態，然後輸入 :wq (一定要先輸入冒號)。</li>
+</ul>
+</li>
+<li>git commit -m &ldquo;提交說明內容&rdquo;
+提交（commit）目前的異動並透過 -m 參數設定摘要說明文字。</li>
+<li>git add [檔案或資料夾]</li>
+<li>git commit &ndash;amend &ndash;no-edit
+在不增加新 commit 版本的狀態下，把新的異動加到目前最新的版本中。
+但是 commit 的 ID 會改變。</li>
+<li>git reset [檔案或資料夾]
+把檔案或資料夾從 staged 狀態返回 modified 狀態。</li>
+<li>git reset &ndash;hard head
+把版本移動到 head 版本裡（最新版）</li>
+</ul>
+<hr>
+<h4 id="回到過去版本"><strong>「回到過去版本」</strong></h4>
+<ul>
+<li>git reset &ndash;hard head~1</li>
+<li>git reset &ndash;hard head^
+把該資料夾所有的檔案版本，移動到上一個版</li>
+<li>git reset &ndash;hard head~2</li>
+<li>git reset &ndash;hard head^^
+把該資料夾所有的檔案版本，移動到上兩個版</li>
+<li>git reset &ndash;hard [版本號碼]
+把該資料夾所有的檔案版本，直接回到指定編號的版本</li>
+</ul>
+<hr>
+<h4 id="回到未來版本"><strong>「回到未來版本」</strong></h4>
+<p>通常會用到 git reflog 查詢 commit ID
+然後用 git reset &ndash;hard [版本號碼] 到達該版本
+或是 git reset &ndash;hard head@{數字} 到達該版本
+「將『單個』檔案或資料夾，做版本變更」
+git checkout [版本編號] &ndash; [檔案或資料夾]</p>
+<hr>
+<h4 id="建立分支"><strong>「建立分支」</strong></h4>
+<ul>
+<li>git branch
+查看目前所有的分支。
+查看目前指針所處位置。</li>
+<li>git branch [新分支名稱]
+建立新分支。此時枝針並沒有移動該分支。</li>
+<li>git checkout [已存在分支名稱]
+將指針移動到該分支。</li>
+<li>git checkout -b [新分支名稱]
+建立新分支。並將指針移動到新分支。</li>
+<li>git checkout master
+將指針移動到 master。</li>
+</ul>
+<hr>
+<h4 id="刪除分支"><strong>「刪除分支」</strong></h4>
+<ul>
+<li>git branch -d [分支名稱]
+刪除該分支。
+附註，當指針處於欲刪除的分支上時，系統會顯示無法刪除。</li>
+</ul>
+<hr>
+<h4 id="主分合併"><strong>「主分合併」</strong></h4>
+<ul>
+<li>git merge &ndash;no-ff -m &ldquo;提交說明內容&rdquo; [分支名稱]
+將當前分支與稱作[分支名稱]的分支代碼合並（[分支名稱]代碼合並到當前分支），並且顯示合並細節，具體表現在提交線路圖會出現交叉線。</li>
+<li>git merge [分支名稱]
+將當前分支與稱作[分支名稱]的分支代碼合並（[分支名稱]代碼合並到當前分支）。</li>
+</ul>
+<hr>
+<h4 id="合併衝突"><strong>「合併衝突」</strong></h4>
+<ul>
+<li>conflict 衝突
+當合併出現衝突時，系統會出現：
+CONFLICT (content): Merge conflict in [檔案或資料夾名稱]
+Automatic merge failed; fix conflicts and then commit the result.
+此時系統會在被合併檔案出現許多提示文字要使用者做修改。
+修改完後打上指令：
+git commit -am &ldquo;提交說明內容&rdquo;
+即可排除衝突並合併</li>
+</ul>
+
+        </p>
+    </div>
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    <span>&copy; 2022 Love &amp; Peace</span>
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

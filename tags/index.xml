@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Webb Kuo Blogs</title>
+    <title>Tags on Webb</title>
     <link>https://KPW10452025.github.io/tags/</link>
-    <description>Recent content in Tags on Webb Kuo Blogs</description>
+    <description>Recent content in Tags on Webb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 14 Feb 2022 14:41:03 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 08:28:11 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git</title>
-      <link>https://KPW10452025.github.io/tags/git/</link>
-      <pubDate>Mon, 14 Feb 2022 14:41:03 +0800</pubDate>
+      <title>front-end</title>
+      <link>https://KPW10452025.github.io/tags/front-end/</link>
+      <pubDate>Mon, 03 Jan 2022 08:28:11 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/tags/git/</guid>
+      <guid>https://KPW10452025.github.io/tags/front-end/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Python</title>
+      <title>terminal</title>
+      <link>https://KPW10452025.github.io/tags/terminal/</link>
+      <pubDate>Wed, 24 Nov 2021 16:12:47 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
       <link>https://KPW10452025.github.io/tags/python/</link>
-      <pubDate>Mon, 14 Feb 2022 13:59:40 +0800</pubDate>
+      <pubDate>Tue, 03 Aug 2021 21:34:44 +0800</pubDate>
       
       <guid>https://KPW10452025.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>CSS</title>
-      <link>https://KPW10452025.github.io/tags/css/</link>
-      <pubDate>Mon, 14 Feb 2022 11:50:47 +0800</pubDate>
+      <title>virtualenv</title>
+      <link>https://KPW10452025.github.io/tags/virtualenv/</link>
+      <pubDate>Tue, 03 Aug 2021 21:34:44 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/tags/css/</guid>
+      <guid>https://KPW10452025.github.io/tags/virtualenv/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>HTML</title>
-      <link>https://KPW10452025.github.io/tags/html/</link>
-      <pubDate>Mon, 14 Feb 2022 11:50:47 +0800</pubDate>
+      <title>git</title>
+      <link>https://KPW10452025.github.io/tags/git/</link>
+      <pubDate>Sat, 17 Jul 2021 20:54:11 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JavaScript</title>
-      <link>https://KPW10452025.github.io/tags/javascript/</link>
-      <pubDate>Mon, 14 Feb 2022 11:50:47 +0800</pubDate>
-      
-      <guid>https://KPW10452025.github.io/tags/javascript/</guid>
+      <guid>https://KPW10452025.github.io/tags/git/</guid>
       <description></description>
     </item>
     
