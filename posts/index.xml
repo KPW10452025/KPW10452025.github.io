@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Webb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 03 Jan 2022 08:28:11 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 11:10:48 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use git in terminal?</title>
       <link>https://KPW10452025.github.io/posts/001_how_to_use_git_in_terminal/</link>
@@ -44,6 +44,15 @@ pip list 在 terminal 輸入 pip freeze &amp;gt; 檔案名稱.txt 可以把目�
     </item>
     
     <item>
+      <title>The Mac terminal commands cheat sheet.</title>
+      <link>https://KPW10452025.github.io/posts/003_the_mac_terminal_commands_cheat_sheet/</link>
+      <pubDate>Wed, 24 Nov 2021 16:12:47 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/posts/003_the_mac_terminal_commands_cheat_sheet/</guid>
+      <description>Here is some common used syntax in terminal on MacOS.   Create a new folder.  mkdir folder_name   Delete a file. (This deletes the file permanently; use with caution.)  rm file_name   Delete a folder and its contents.  rm -R folder_name   Create a new file without any extension.  touch file_name   Display the name of files and subdirectories in the directory.</description>
+    </item>
+    
+    <item>
       <title>Front end learning roadmap.</title>
       <link>https://KPW10452025.github.io/posts/004_front_end_learning_roadmap/</link>
       <pubDate>Mon, 03 Jan 2022 08:28:11 +0800</pubDate>
@@ -59,12 +68,15 @@ pip list 在 terminal 輸入 pip freeze &amp;gt; 檔案名稱.txt 可以把目�
     </item>
     
     <item>
-      <title>The Mac terminal commands cheat sheet.</title>
-      <link>https://KPW10452025.github.io/posts/003_the_mac_terminal_commands_cheat_sheet/</link>
-      <pubDate>Wed, 24 Nov 2021 16:12:47 +0800</pubDate>
+      <title>How to use google analytics in hugo website?</title>
+      <link>https://KPW10452025.github.io/posts/005_google_analytics/</link>
+      <pubDate>Tue, 15 Feb 2022 11:10:48 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/posts/003_the_mac_terminal_commands_cheat_sheet/</guid>
-      <description>Here is some common used syntax in terminal on MacOS.   Create a new folder.  mkdir folder_name   Delete a file. (This deletes the file permanently; use with caution.)  rm file_name   Delete a folder and its contents.  rm -R folder_name   Create a new file without any extension.  touch file_name   Display the name of files and subdirectories in the directory.</description>
+      <guid>https://KPW10452025.github.io/posts/005_google_analytics/</guid>
+      <description>On Hugo website, by searching Google Analytics will find configure google analytics codes like these:
+googleAnalytics = &amp;#39;UA-PROPERTY_ID&amp;#39; {{ template &amp;#34;_internal/google_analytics.html&amp;#34; . }} Put the first code at config.toml file.
+Put outside the [params], not in it. It&amp;rsquo;ll look like this:
+baseURL = &amp;#34;https://KPW10452025.github.io&amp;#34; title = &amp;#34;Webb&amp;#34; ... googleAnalytics = &amp;#39;UA-220340577-1&amp;#39; [params] footer = &amp;#34;Love &amp;amp; Peace&amp;#34; description = &amp;#34;Hi! I&amp;#39;m Wdbb Kuo. This is my first personal website.&amp;#34; ...  Put the second code at head.</description>
     </item>
     
     <item>
