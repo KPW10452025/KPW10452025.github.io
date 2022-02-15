@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 03 Jan 2022 08:28:11 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Front end learning roadmap.</title>
-      <link>https://KPW10452025.github.io/posts/004_front_end_learning_roadmap/</link>
+      <link>https://KPW10452025.github.io/posts/004/</link>
       <pubDate>Mon, 03 Jan 2022 08:28:11 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/posts/004_front_end_learning_roadmap/</guid>
+      <guid>https://KPW10452025.github.io/posts/004/</guid>
       <description>前端核心基礎階段
  網頁頁面技術：HTML 網頁頁面技術：CSS 網頁交互技術：JavaScript 網頁交互技術：Dom 網頁交互技術：Bom   前端核心高級階段
  網頁介面新技術：HTML5(語意化標籤、本地儲存、音頻視頻等) 網頁介面技術：CSS3(過度、動畫等) 移動端開發：移動端特性、適配等 前端樣式庫：Bootstrap 前端繪圖技術：Canvas 快速簡介圖表可視化庫：Echarts(折線圖、長條圖、餅狀圖、組合圖、綜合圖) 流行圖表可視化庫：D3 使用JS函數庫：JQuery 移動端類JQuery庫：Zepto 版本控制工具1：VSN 版本控制工具2：GIT &amp;amp; GITHUB   ＪＳ高級

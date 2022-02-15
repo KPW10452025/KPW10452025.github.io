@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 15 Feb 2022 11:10:48 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use google analytics in hugo website?</title>
-      <link>https://KPW10452025.github.io/posts/005_google_analytics/</link>
+      <link>https://KPW10452025.github.io/posts/005/</link>
       <pubDate>Tue, 15 Feb 2022 11:10:48 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/posts/005_google_analytics/</guid>
+      <guid>https://KPW10452025.github.io/posts/005/</guid>
       <description>On Hugo website, by searching Google Analytics will find configure google analytics codes like these:
 googleAnalytics = &amp;#39;UA-PROPERTY_ID&amp;#39; {{ template &amp;#34;_internal/google_analytics.html&amp;#34; . }} Put the first code at config.toml file.
 Put outside the [params], not in it. It&amp;rsquo;ll look like this:

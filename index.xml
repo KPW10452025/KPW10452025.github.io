@@ -9,19 +9,19 @@
     <lastBuildDate>Tue, 15 Feb 2022 11:10:48 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use git in terminal?</title>
-      <link>https://KPW10452025.github.io/posts/001_how_to_use_git_in_terminal/</link>
+      <link>https://KPW10452025.github.io/posts/001/</link>
       <pubDate>Sat, 17 Jul 2021 20:54:11 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/posts/001_how_to_use_git_in_terminal/</guid>
+      <guid>https://KPW10452025.github.io/posts/001/</guid>
       <description>「基本常用 Code」  git init 將一個資料夾初始化後，可以開始使用 git 版本管理 git log 查看先前詳細的 commit 記錄。 git log &amp;ndash;oneline 查看先前簡易的 commit 記錄。 git log &amp;ndash;graph 查看先前詳細的 commit 記錄，視覺化分支。 git reflog 查看全部的 commit 記錄，包含跳版本的紀錄。（reference 參考） git status 檢查本地端檔案異動狀態。 git status -s 檢查本地端檔案異動狀態。（簡易顯示） git add [檔案或資料夾] 將指定的檔案或資料夾，加入版本控制。 git add . 將全部的檔案或資料夾，加入版本控制。 git commit 提交（commit）目前的異動。  會進入提交頁面。 按 s 鍵，進入INSERT狀態，並輸入將要提交的文字備註內容。 輸入完備註內容後按 esc (鍵盤左上角)，退出編輯狀態，然後輸入 :wq (一定要先輸入冒號)。   git commit -m &amp;ldquo;提交說明內容&amp;rdquo; 提交（commit）目前的異動並透過 -m 參數設定摘要說明文字。 git add [檔案或資料夾] git commit &amp;ndash;amend &amp;ndash;no-edit 在不增加新 commit 版本的狀態下，把新的異動加到目前最新的版本中。 但是 commit 的 ID 會改變。 git reset [檔案或資料夾] 把檔案或資料夾從 staged 狀態返回 modified 狀態。 git reset &amp;ndash;hard head 把版本移動到 head 版本裡（最新版）   「回到過去版本」  git reset &amp;ndash;hard head~1 git reset &amp;ndash;hard head^ 把該資料夾所有的檔案版本，移動到上一個版 git reset &amp;ndash;hard head~2 git reset &amp;ndash;hard head^^ 把該資料夾所有的檔案版本，移動到上兩個版 git reset &amp;ndash;hard [版本號碼] 把該資料夾所有的檔案版本，直接回到指定編號的版本   「回到未來版本」 通常會用到 git reflog 查詢 commit ID 然後用 git reset &amp;ndash;hard [版本號碼] 到達該版本 或是 git reset &amp;ndash;hard head@{數字} 到達該版本 「將『單個』檔案或資料夾，做版本變更」 git checkout [版本編號] &amp;ndash; [檔案或資料夾]</description>
     </item>
     
     <item>
       <title>How to use virtual environment in Python?</title>
-      <link>https://KPW10452025.github.io/posts/002_how_to_use_virtual_environment_in_python/</link>
+      <link>https://KPW10452025.github.io/posts/002/</link>
       <pubDate>Tue, 03 Aug 2021 21:34:44 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/posts/002_how_to_use_virtual_environment_in_python/</guid>
+      <guid>https://KPW10452025.github.io/posts/002/</guid>
       <description>虛擬環境可以在任何資料夾下建立。
 並且同一個資料夾可以建立多個虛擬環境。
  建立虛擬環境 把 terminal 位置 cd 到想建立虛擬環境的專案資料夾。
@@ -45,19 +45,19 @@ pip list 在 terminal 輸入 pip freeze &amp;gt; 檔案名稱.txt 可以把目�
     
     <item>
       <title>The Mac terminal commands cheat sheet.</title>
-      <link>https://KPW10452025.github.io/posts/003_the_mac_terminal_commands_cheat_sheet/</link>
+      <link>https://KPW10452025.github.io/posts/003/</link>
       <pubDate>Wed, 24 Nov 2021 16:12:47 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/posts/003_the_mac_terminal_commands_cheat_sheet/</guid>
+      <guid>https://KPW10452025.github.io/posts/003/</guid>
       <description>Here is some common used syntax in terminal on MacOS.   Create a new folder.  mkdir folder_name   Delete a file. (This deletes the file permanently; use with caution.)  rm file_name   Delete a folder and its contents.  rm -R folder_name   Create a new file without any extension.  touch file_name   Display the name of files and subdirectories in the directory.</description>
     </item>
     
     <item>
       <title>Front end learning roadmap.</title>
-      <link>https://KPW10452025.github.io/posts/004_front_end_learning_roadmap/</link>
+      <link>https://KPW10452025.github.io/posts/004/</link>
       <pubDate>Mon, 03 Jan 2022 08:28:11 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/posts/004_front_end_learning_roadmap/</guid>
+      <guid>https://KPW10452025.github.io/posts/004/</guid>
       <description>前端核心基礎階段
  網頁頁面技術：HTML 網頁頁面技術：CSS 網頁交互技術：JavaScript 網頁交互技術：Dom 網頁交互技術：Bom   前端核心高級階段
  網頁介面新技術：HTML5(語意化標籤、本地儲存、音頻視頻等) 網頁介面技術：CSS3(過度、動畫等) 移動端開發：移動端特性、適配等 前端樣式庫：Bootstrap 前端繪圖技術：Canvas 快速簡介圖表可視化庫：Echarts(折線圖、長條圖、餅狀圖、組合圖、綜合圖) 流行圖表可視化庫：D3 使用JS函數庫：JQuery 移動端類JQuery庫：Zepto 版本控制工具1：VSN 版本控制工具2：GIT &amp;amp; GITHUB   ＪＳ高級
@@ -69,10 +69,10 @@ pip list 在 terminal 輸入 pip freeze &amp;gt; 檔案名稱.txt 可以把目�
     
     <item>
       <title>How to use google analytics in hugo website?</title>
-      <link>https://KPW10452025.github.io/posts/005_google_analytics/</link>
+      <link>https://KPW10452025.github.io/posts/005/</link>
       <pubDate>Tue, 15 Feb 2022 11:10:48 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/posts/005_google_analytics/</guid>
+      <guid>https://KPW10452025.github.io/posts/005/</guid>
       <description>On Hugo website, by searching Google Analytics will find configure google analytics codes like these:
 googleAnalytics = &amp;#39;UA-PROPERTY_ID&amp;#39; {{ template &amp;#34;_internal/google_analytics.html&amp;#34; . }} Put the first code at config.toml file.
 Put outside the [params], not in it. It&amp;rsquo;ll look like this:

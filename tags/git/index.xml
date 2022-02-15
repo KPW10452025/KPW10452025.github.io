@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 17 Jul 2021 20:54:11 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use git in terminal?</title>
-      <link>https://KPW10452025.github.io/posts/001_how_to_use_git_in_terminal/</link>
+      <link>https://KPW10452025.github.io/posts/001/</link>
       <pubDate>Sat, 17 Jul 2021 20:54:11 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/posts/001_how_to_use_git_in_terminal/</guid>
+      <guid>https://KPW10452025.github.io/posts/001/</guid>
       <description>「基本常用 Code」  git init 將一個資料夾初始化後，可以開始使用 git 版本管理 git log 查看先前詳細的 commit 記錄。 git log &amp;ndash;oneline 查看先前簡易的 commit 記錄。 git log &amp;ndash;graph 查看先前詳細的 commit 記錄，視覺化分支。 git reflog 查看全部的 commit 記錄，包含跳版本的紀錄。（reference 參考） git status 檢查本地端檔案異動狀態。 git status -s 檢查本地端檔案異動狀態。（簡易顯示） git add [檔案或資料夾] 將指定的檔案或資料夾，加入版本控制。 git add . 將全部的檔案或資料夾，加入版本控制。 git commit 提交（commit）目前的異動。  會進入提交頁面。 按 s 鍵，進入INSERT狀態，並輸入將要提交的文字備註內容。 輸入完備註內容後按 esc (鍵盤左上角)，退出編輯狀態，然後輸入 :wq (一定要先輸入冒號)。   git commit -m &amp;ldquo;提交說明內容&amp;rdquo; 提交（commit）目前的異動並透過 -m 參數設定摘要說明文字。 git add [檔案或資料夾] git commit &amp;ndash;amend &amp;ndash;no-edit 在不增加新 commit 版本的狀態下，把新的異動加到目前最新的版本中。 但是 commit 的 ID 會改變。 git reset [檔案或資料夾] 把檔案或資料夾從 staged 狀態返回 modified 狀態。 git reset &amp;ndash;hard head 把版本移動到 head 版本裡（最新版）   「回到過去版本」  git reset &amp;ndash;hard head~1 git reset &amp;ndash;hard head^ 把該資料夾所有的檔案版本，移動到上一個版 git reset &amp;ndash;hard head~2 git reset &amp;ndash;hard head^^ 把該資料夾所有的檔案版本，移動到上兩個版 git reset &amp;ndash;hard [版本號碼] 把該資料夾所有的檔案版本，直接回到指定編號的版本   「回到未來版本」 通常會用到 git reflog 查詢 commit ID 然後用 git reset &amp;ndash;hard [版本號碼] 到達該版本 或是 git reset &amp;ndash;hard head@{數字} 到達該版本 「將『單個』檔案或資料夾，做版本變更」 git checkout [版本編號] &amp;ndash; [檔案或資料夾]</description>
     </item>
     

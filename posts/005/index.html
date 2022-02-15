@@ -17,25 +17,25 @@
     
 
     
-    <title>virtualenv</title>
-    <meta name="description" content="Hi! I&#39;m Wdbb Kuo. This is my first personal website.">
-    <meta name="keywords" content='blog, Webb Kuo'>
+    <title>How to use google analytics in hugo website?</title>
+    <meta name="description" content="Where to put the google analytics codes?">
+    <meta name="keywords" content='blog, Webb Kuo, google analytics'>
 
-    <meta property="og:url" content="https://KPW10452025.github.io/tags/virtualenv/">
+    <meta property="og:url" content="https://KPW10452025.github.io/posts/005/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="virtualenv">
-    <meta property="og:description" content="Hi! I&#39;m Wdbb Kuo. This is my first personal website.">
+    <meta property="og:title" content="How to use google analytics in hugo website?">
+    <meta property="og:description" content="Where to put the google analytics codes?">
     <meta property="og:image" content="/images/author.jpeg">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="virtualenv">
-    <meta name="twitter:description" content="Hi! I&#39;m Wdbb Kuo. This is my first personal website.">
-    <meta property="twitter:domain" content="https://KPW10452025.github.io/tags/virtualenv/">
-    <meta property="twitter:url" content="https://KPW10452025.github.io/tags/virtualenv/">
+    <meta name="twitter:title" content="How to use google analytics in hugo website?">
+    <meta name="twitter:description" content="Where to put the google analytics codes?">
+    <meta property="twitter:domain" content="https://KPW10452025.github.io/posts/005/">
+    <meta property="twitter:url" content="https://KPW10452025.github.io/posts/005/">
     <meta name="twitter:image" content="/images/author.jpeg">
 
     
-    <link rel="canonical" href="https://KPW10452025.github.io/tags/virtualenv/" />
+    <link rel="canonical" href="https://KPW10452025.github.io/posts/005/" />
 
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -143,22 +143,62 @@ if (!doNotTrack) {
     </nav>
 </header>
 <main id="content">
-    <div class="container list-posts">
+    <div class="post container">
 
-    <h1 class="list-title">virtualenv</h2>
+    <div class="post-header-section">
+        <h1>How to use google analytics in hugo website?</h1>
+        <small role="doc-subtitle">Where to put the google analytics codes?</small>
+        <p class="post-date">
+            February 15, 2022
+        </p>
 
-    
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="/tags/google-analytics">google analytics</a></li>
+        
+        </ul>
+    </div>
 
-    <h2 class="posts-year">2021</h2><article class="post-title">
-    <a href="/posts/002/" class="post-link">How to use virtual environment in Python?</a>
-    <div class="flex-break"></div>
-    <span class="post-date">August 3, 2021</span>
-</article>
+    <div class="post-content">
+        <p>
+            <p>On Hugo website, by searching Google Analytics will find configure google analytics codes like these:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#a6e22e">googleAnalytics</span> = <span style="color:#e6db74">&#39;UA-PROPERTY_ID&#39;</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ template &#34;_internal/google_analytics.html&#34; . }}
+</code></pre></div><p>Put the first code at config.toml file.<br>
+Put outside the [params], not in it. It&rsquo;ll look like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#34;https://KPW10452025.github.io&#34;</span>
+<span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;Webb&#34;</span>
+...
+<span style="color:#a6e22e">googleAnalytics</span> = <span style="color:#e6db74">&#39;UA-220340577-1&#39;</span>
 
-    
+[<span style="color:#a6e22e">params</span>]
+  <span style="color:#a6e22e">footer</span> = <span style="color:#e6db74">&#34;Love &amp; Peace&#34;</span>
+  <span style="color:#a6e22e">description</span> = <span style="color:#e6db74">&#34;Hi! I&#39;m Wdbb Kuo. This is my first personal website.&#34;</span>
+  ...
+</code></pre></div><hr>
+<p>Put the second code at head.html file. ( themes/layouts/partials/head.html )<br>
+Just put it inside the head tags.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">head</span>&gt;
+    ...
+    ...
+    {{ template &#34;_internal/google_analytics.html&#34; . }}
+&lt;/<span style="color:#f92672">head</span>&gt;
+</code></pre></div><hr>
 
+        </p>
+    </div>
+    <script src="https://utteranc.es/client.js"
+        repo="KPW10452025/KPW10452025.github.io"
+        issue-term="title"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+    </script>
 </div>
 
+
+
+    
 
         </main><footer class="footer">
     <span>&copy; 2022 Love &amp; Peace</span>
