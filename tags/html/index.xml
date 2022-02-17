@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HTML on Webb Kuo Blogs</title>
+    <title>html on Webb Kuo Blogs</title>
     <link>https://KPW10452025.github.io/tags/html/</link>
-    <description>Recent content in HTML on Webb Kuo Blogs</description>
+    <description>Recent content in html on Webb Kuo Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 14 Feb 2022 11:50:47 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Feb 2022 17:29:31 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>擷取網站全畫面</title>
+      <link>https://KPW10452025.github.io/blog/webpage_full_screen_shot/</link>
+      <pubDate>Thu, 17 Feb 2022 17:29:31 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/webpage_full_screen_shot/</guid>
+      <description>步驟一：開啟網頁「檢查」頁面
+ windows 系統：
+按下 F12 開啟檢查頁面 MacOS 系統：</description>
+    </item>
+    
     <item>
       <title>大前端學習</title>
       <link>https://KPW10452025.github.io/blog/frond_end_learning/</link>

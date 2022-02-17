@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Webb Kuo Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 17 Feb 2022 00:45:49 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Feb 2022 17:29:31 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>html</title>
+      <link>https://KPW10452025.github.io/tags/html/</link>
+      <pubDate>Thu, 17 Feb 2022 17:29:31 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>terminal</title>
       <link>https://KPW10452025.github.io/tags/terminal/</link>
@@ -17,7 +26,7 @@
     </item>
     
     <item>
-      <title>Git</title>
+      <title>git</title>
       <link>https://KPW10452025.github.io/tags/git/</link>
       <pubDate>Mon, 14 Feb 2022 14:41:03 +0800</pubDate>
       
@@ -26,16 +35,25 @@
     </item>
     
     <item>
-      <title>Python, virtualenv</title>
-      <link>https://KPW10452025.github.io/tags/python-virtualenv/</link>
+      <title>python</title>
+      <link>https://KPW10452025.github.io/tags/python/</link>
       <pubDate>Mon, 14 Feb 2022 13:59:40 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/tags/python-virtualenv/</guid>
+      <guid>https://KPW10452025.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>CSS</title>
+      <title>virtualenv</title>
+      <link>https://KPW10452025.github.io/tags/virtualenv/</link>
+      <pubDate>Mon, 14 Feb 2022 13:59:40 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/tags/virtualenv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
       <link>https://KPW10452025.github.io/tags/css/</link>
       <pubDate>Mon, 14 Feb 2022 11:50:47 +0800</pubDate>
       
@@ -44,16 +62,7 @@
     </item>
     
     <item>
-      <title>HTML</title>
-      <link>https://KPW10452025.github.io/tags/html/</link>
-      <pubDate>Mon, 14 Feb 2022 11:50:47 +0800</pubDate>
-      
-      <guid>https://KPW10452025.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JavaScript</title>
+      <title>javascript</title>
       <link>https://KPW10452025.github.io/tags/javascript/</link>
       <pubDate>Mon, 14 Feb 2022 11:50:47 +0800</pubDate>
       
