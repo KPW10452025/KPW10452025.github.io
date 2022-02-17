@@ -144,37 +144,37 @@
         <div class="content mb-5">
           <h5 id="虛擬環境可以在任何資料夾下建立並且同一個資料夾可以建立多個虛擬環境">虛擬環境可以在任何資料夾下建立，並且同一個資料夾可以建立多個虛擬環境。</h5>
 <hr>
-<p>建立虛擬環境</p>
-<p>把 terminal 位置 cd 到想建立虛擬環境的專案資料夾。
-在 terminal 輸入 virtualenv 虛擬環境名稱。
-舉例：virtualenv testvenv
-這樣會建立一個名為 testvenv 的虛擬環境。
+<p><strong>[ 建立虛擬環境 ]</strong></p>
+<p>把 terminal 位置 cd 到想建立虛擬環境的專案資料夾。<br>
+在 terminal 輸入 virtualenv 虛擬環境名稱。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">virtualenv</span> <span style="color:#a6e22e">testvenv</span>
+</code></pre></div><p>這樣會建立一個名為 testvenv 的虛擬環境。<br>
 專案資料夾會出現一個 testvenv 的資料夾。</p>
 <hr>
-<p>啟動虛擬環境</p>
-<p>在 terminal 輸入 source 虛擬環境名稱/bin/activate
-舉例：source testvenv/bin/activate
-這樣會啟動方才建立的 testvenv 虛擬環境。</p>
+<p><strong>[ 啟動虛擬環境 ]</strong></p>
+<p>在 terminal 輸入 source 虛擬環境名稱/bin/activate</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">source</span> <span style="color:#a6e22e">testvenv</span><span style="color:#f92672">/</span><span style="color:#a6e22e">bin</span><span style="color:#f92672">/</span><span style="color:#a6e22e">activate</span>
+</code></pre></div><p>這樣會啟動方才建立的 testvenv 虛擬環境。</p>
 <hr>
-<p>關閉虛擬環境</p>
+<p><strong>[ 關閉虛擬環境 ]</strong></p>
 <p>在 terminal 輸入 deactivate</p>
-<hr>
-<p>刪除虛擬環境</p>
-<p>在專案資料夾裡找到和虛擬環境依樣名稱的資料夾，刪除這個資料夾就能刪除此虛擬環境。
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">deactivate</span>
+</code></pre></div><hr>
+<p><strong>[ 刪除虛擬環境 ]</strong></p>
+<p>在專案資料夾裡找到和虛擬環境依樣名稱的資料夾，刪除這個資料夾就能刪除此虛擬環境。<br>
 本篇的說明例子就是刪除名為 testvenv 的資料夾即可。</p>
 <hr>
-<p>導出安裝模組 model</p>
-<p>在 terminal 輸入 pip list 可以看目前的環境已安裝的模組
-在 terminal 輸入 pip freeze &gt; 檔案名稱.txt 可以把目前的環境已安裝的模組導出至此 txt 檔案
-舉例：pip freeze &gt; requirements.txt
-在 terminal 輸入 cat 導出檔案名稱.txt 可以觀看此 txt 黨的內容
-舉例：cat requirements.txt</p>
-<hr>
-<p>導入安裝模組</p>
-<p>啟動虛擬環境
-在 terminal 輸入 pip install -r 檔案名稱.txt
-舉例：pip install -r requirements.txt</p>
-
+<p><strong>[ 導出安裝模組 model ]</strong></p>
+<p>在 terminal 輸入 pip list 可以看目前的環境已安裝的模組。<br>
+在 terminal 輸入 pip freeze &gt; 檔案名稱.txt 可以把目前的環境已安裝的模組導出至此 txt 檔案。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">pip</span> <span style="color:#a6e22e">freeze</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">requirements</span>.<span style="color:#a6e22e">txt</span>
+</code></pre></div><p>在 terminal 輸入 cat 導出檔案名稱.txt 可以觀看此 txt 黨的內容。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">cat</span> <span style="color:#a6e22e">requirements</span>.<span style="color:#a6e22e">txt</span>
+</code></pre></div><hr>
+<p><strong>[ 導入安裝模組 ]</strong></p>
+<p>啟動虛擬環境後，在 terminal 輸入 pip install -r 檔案名稱.txt</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">pip</span> <span style="color:#a6e22e">install</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">r</span> <span style="color:#a6e22e">requirements</span>.<span style="color:#a6e22e">txt</span>
+</code></pre></div>
         </div>
 
         
