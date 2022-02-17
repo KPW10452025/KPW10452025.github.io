@@ -8,11 +8,38 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://KPW10452025.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>JS 課程003 JS 代碼編寫位置</title>
+      <link>https://KPW10452025.github.io/blog/js003/</link>
+      <pubDate>Fri, 18 Feb 2022 01:09:23 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js003/</guid>
+      <description>attribute 屬性 execute 執行 practical application 實際應用 maintenance 維護 couple 偶合 quote 引用 caching mechanism 緩存機制    We can code the JS in the attributes of onclick.</description>
+    </item>
+    
+    <item>
+      <title>JS 課程002 JS HelloWord</title>
+      <link>https://KPW10452025.github.io/blog/js002/</link>
+      <pubDate>Thu, 17 Feb 2022 23:32:44 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js002/</guid>
+      <description>&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;JS002&amp;lt;/title&amp;gt; &amp;lt;!-- JS 代碼需要邊寫道 script 標籤中 --&amp;gt; &amp;lt;!</description>
+    </item>
+    
+    <item>
+      <title>JS 課程001 JavaScript 簡介</title>
+      <link>https://KPW10452025.github.io/blog/js001/</link>
+      <pubDate>Thu, 17 Feb 2022 23:13:30 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js001/</guid>
+      <description>ECMAScript 是 JavaScript 標準，所以一般情況下這兩個詞是同一個意思。 但實際上 JavaScript 的含義要更大一些。 完整的 JavaScript 實現應該由以下三個部分構成：</description>
+    </item>
+    
+    <item>
       <title>擷取網站全畫面</title>
-      <link>https://KPW10452025.github.io/blog/webpage_full_screen_shot/</link>
+      <link>https://KPW10452025.github.io/blog/00webpage_full_screen_shot/</link>
       <pubDate>Thu, 17 Feb 2022 17:29:31 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/blog/webpage_full_screen_shot/</guid>
+      <guid>https://KPW10452025.github.io/blog/00webpage_full_screen_shot/</guid>
       <description>步驟一：開啟網頁「檢查」頁面
  windows 系統：
 按下 F12 開啟檢查頁面 MacOS 系統：</description>
@@ -20,38 +47,38 @@
     
     <item>
       <title>MacOS 的 terminal 常用語法</title>
-      <link>https://KPW10452025.github.io/blog/mac_terminal_commands_cheat_sheet/</link>
+      <link>https://KPW10452025.github.io/blog/00mac_terminal_commands_cheat_sheet/</link>
       <pubDate>Thu, 17 Feb 2022 00:45:49 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/blog/mac_terminal_commands_cheat_sheet/</guid>
+      <guid>https://KPW10452025.github.io/blog/00mac_terminal_commands_cheat_sheet/</guid>
       <description>Here is some common used syntax in terminal on MacOS.   Create a new folder.</description>
     </item>
     
     <item>
       <title>Git 版本控制常用語法</title>
-      <link>https://KPW10452025.github.io/blog/git_code/</link>
+      <link>https://KPW10452025.github.io/blog/00git_code/</link>
       <pubDate>Mon, 14 Feb 2022 14:41:03 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/blog/git_code/</guid>
+      <guid>https://KPW10452025.github.io/blog/00git_code/</guid>
       <description>「基本常用 Code」  git init 將一個資料夾初始化後，可以開始使用 git 版本管理 git log 查看先前詳細的 commit 記錄。 git log &amp;ndash;oneline 查看先前簡易的 commit 記錄。 git log &amp;ndash;graph 查看先前詳細的 commit 記錄，視覺化分支。 git reflog 查看全部的 commit 記錄，包含跳版本的紀錄。（reference 參考） git status 檢查本地端檔案異動狀態。 git status -s 檢查本地端檔案異動狀態。（簡易顯示） git add [檔案或資料夾] 將指定的檔案或資料夾，加入版本控制。 git add .</description>
     </item>
     
     <item>
       <title>Python 虛擬環境 virtualenv</title>
-      <link>https://KPW10452025.github.io/blog/python_virtualenv/</link>
+      <link>https://KPW10452025.github.io/blog/00python_virtualenv/</link>
       <pubDate>Mon, 14 Feb 2022 13:59:40 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/blog/python_virtualenv/</guid>
+      <guid>https://KPW10452025.github.io/blog/00python_virtualenv/</guid>
       <description>虛擬環境可以在任何資料夾下建立，並且同一個資料夾可以建立多個虛擬環境。  [ 建立虛擬環境 ]
 把 terminal 位置 cd 到想建立虛擬環境的專案資料夾。</description>
     </item>
     
     <item>
       <title>大前端學習</title>
-      <link>https://KPW10452025.github.io/blog/frond_end_learning/</link>
+      <link>https://KPW10452025.github.io/blog/00frond_end_learning/</link>
       <pubDate>Mon, 14 Feb 2022 11:50:47 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/blog/frond_end_learning/</guid>
+      <guid>https://KPW10452025.github.io/blog/00frond_end_learning/</guid>
       <description>前端核心基礎階段
  網頁頁面技術：HTML 網頁頁面技術：CSS 網頁交互技術：JavaScript 網頁交互技術：Dom 網頁交互技術：Bom   前端核心高級階段</description>
     </item>
