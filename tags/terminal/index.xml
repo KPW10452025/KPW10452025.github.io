@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>terminal on Webb</title>
+    <title>terminal on Webb Kuo Blogs</title>
     <link>https://KPW10452025.github.io/tags/terminal/</link>
-    <description>Recent content in terminal on Webb</description>
+    <description>Recent content in terminal on Webb Kuo Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 24 Nov 2021 16:12:47 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Feb 2022 00:45:49 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Mac terminal commands cheat sheet.</title>
-      <link>https://KPW10452025.github.io/posts/003/</link>
-      <pubDate>Wed, 24 Nov 2021 16:12:47 +0800</pubDate>
+      <title>MacOS 的 terminal 常用語法</title>
+      <link>https://KPW10452025.github.io/blog/mac_terminal_commands_cheat_sheet/</link>
+      <pubDate>Thu, 17 Feb 2022 00:45:49 +0800</pubDate>
       
-      <guid>https://KPW10452025.github.io/posts/003/</guid>
-      <description>Here is some common used syntax in terminal on MacOS.   Create a new folder.  mkdir folder_name   Delete a file. (This deletes the file permanently; use with caution.)  rm file_name   Delete a folder and its contents.  rm -R folder_name   Create a new file without any extension.  touch file_name   Display the name of files and subdirectories in the directory.</description>
+      <guid>https://KPW10452025.github.io/blog/mac_terminal_commands_cheat_sheet/</guid>
+      <description>Here is some common used syntax in terminal on MacOS.   Create a new folder.</description>
     </item>
     
   </channel>
