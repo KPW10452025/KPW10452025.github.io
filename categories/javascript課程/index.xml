@@ -6,7 +6,59 @@
     <description>Recent content in JavaScript課程 on Webb Kuo Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 18 Feb 2022 01:09:23 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/categories/javascript%E8%AA%B2%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 18:08:47 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/categories/javascript%E8%AA%B2%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS 課程008 Number 數字</title>
+      <link>https://KPW10452025.github.io/blog/js008/</link>
+      <pubDate>Fri, 18 Feb 2022 18:08:47 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js008/</guid>
+      <description>We can use the typeof operator to find the data type of a JS variable.</description>
+    </item>
+    
+    <item>
+      <title>JS 課程007 String 字符串</title>
+      <link>https://KPW10452025.github.io/blog/js007/</link>
+      <pubDate>Fri, 18 Feb 2022 17:03:03 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js007/</guid>
+      <description>數據類型：數據類型指的就是字面量類型
+在 JS 中共有六種數據類型：
+一、String 字符串
+二、Number 數字
+三、Boolean 布爾值、布林值</description>
+    </item>
+    
+    <item>
+      <title>JS 課程006 標示符</title>
+      <link>https://KPW10452025.github.io/blog/js006/</link>
+      <pubDate>Fri, 18 Feb 2022 16:26:46 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js006/</guid>
+      <description>在 JS 中所有可以自種命名的都可以稱為標示符。
+例如：變量名、函數名、屬性名&amp;hellip;等。
+命名規則：
+一、標示符中可以包含所有字母、數字、 _ 、 $ ，但不能使用 # 、 @ &amp;hellip;等底線和錢字符以外的符號。</description>
+    </item>
+    
+    <item>
+      <title>JS 課程005 字面量Literals &amp; 變量Variables</title>
+      <link>https://KPW10452025.github.io/blog/js005/</link>
+      <pubDate>Fri, 18 Feb 2022 16:03:17 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js005/</guid>
+      <description>literal 字面量 variable 變量   &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;JS005&amp;lt;/title&amp;gt; &amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt; // In JS, we use &amp;#34;var&amp;#34; to declare a variable.</description>
+    </item>
+    
+    <item>
+      <title>JS 課程004 JS basic syntax</title>
+      <link>https://KPW10452025.github.io/blog/js004/</link>
+      <pubDate>Fri, 18 Feb 2022 02:11:29 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js004/</guid>
+      <description>Comments in JS  // one line comment 單行註解  /* multi-line comments 多行註解 a for apple b for ball c for cat */  Strictly case sensitive.</description>
+    </item>
+    
     <item>
       <title>JS 課程003 JS 代碼編寫位置</title>
       <link>https://KPW10452025.github.io/blog/js003/</link>
