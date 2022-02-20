@@ -6,7 +6,39 @@
     <description>Recent content in javascript on Webb Kuo Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 18 Feb 2022 18:08:47 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 19:50:17 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS 課程011 強制類型轉換之 toString() 方法與 String() 函數</title>
+      <link>https://KPW10452025.github.io/blog/js011/</link>
+      <pubDate>Fri, 18 Feb 2022 19:50:17 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js011/</guid>
+      <description>類型轉換：將其他的數據類型，轉換為 String、Number、Boolean
+本篇要介紹的是，強制類型轉換為字符串 String
+其方法有兩種：
+ toString() 方法 String() 函數   方法一：調用被轉換數據類型的 toString() 方法 所謂調用 xxx 的 yyy 方法，即可視為 xxx.</description>
+    </item>
+    
+    <item>
+      <title>JS 課程010 Null &amp; Undefined</title>
+      <link>https://KPW10452025.github.io/blog/js010/</link>
+      <pubDate>Fri, 18 Feb 2022 19:07:10 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js010/</guid>
+      <description>Null
+When we var a variable is null, it means it is empty.</description>
+    </item>
+    
+    <item>
+      <title>JS 課程009 Boolean 布林值</title>
+      <link>https://KPW10452025.github.io/blog/js009/</link>
+      <pubDate>Fri, 18 Feb 2022 18:44:22 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js009/</guid>
+      <description>Boolean is used to make logical judgments.
+There only have two kinds of Boolean: True and False.</description>
+    </item>
+    
     <item>
       <title>JS 課程008 Number 數字</title>
       <link>https://KPW10452025.github.io/blog/js008/</link>
