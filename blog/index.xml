@@ -8,6 +8,16 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://KPW10452025.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>JS 課程013 JS 中的數字進位問題</title>
+      <link>https://KPW10452025.github.io/blog/js013/</link>
+      <pubDate>Mon, 28 Feb 2022 20:56:30 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js013/</guid>
+      <description>本篇要介紹的是，JS 如果碰到各種進制問題時，要怎麼表示
+ 16 進位法：在 js 中，如果需要表示 16 進位的數字，則須以 0x 開頭  var a = 0x10; console.</description>
+    </item>
+    
+    <item>
       <title>JS 課程012 強制類型轉換之 Number() 函數與 parseInt() 函數</title>
       <link>https://KPW10452025.github.io/blog/js012/</link>
       <pubDate>Mon, 28 Feb 2022 18:51:16 +0800</pubDate>
