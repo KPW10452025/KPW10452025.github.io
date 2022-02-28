@@ -6,7 +6,20 @@
     <description>Recent content on Webb Kuo Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 28 Feb 2022 20:56:30 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 06:42:00 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS 課程014 強制類型轉換之 Boolean()函數</title>
+      <link>https://KPW10452025.github.io/blog/js014/</link>
+      <pubDate>Tue, 01 Mar 2022 06:42:00 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js014/</guid>
+      <description>本篇要介紹的是，將其他的數據類型轉會為數字 Boolean
+若將其他的數據類型，轉化為布林值 Boolean
+則會使用函數：Boolean()
+其各類型轉換特性如下：
+ 將 Number 轉換為 Boolean: 除了 0 和 NaN 為 false，其他皆為 true 將 String 轉換為 Boolean: 除了完全沒字符時為 false，其他皆為 true（空格也算字符） 將 Null 轉換為 Boolean: 一定是 false 將 Undefined 轉換為 Boolean: 一定是 false 特別補充：將 Object 轉換為 Boolean: 一定是 true    將 Number 轉換為 Boolean:  var a = 123; a = Boolean(a); console.</description>
+    </item>
+    
     <item>
       <title>JS 課程013 JS 中的數字進位問題</title>
       <link>https://KPW10452025.github.io/blog/js013/</link>
