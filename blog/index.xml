@@ -13,7 +13,7 @@
       <pubDate>Tue, 01 Mar 2022 06:42:00 +0800</pubDate>
       
       <guid>https://KPW10452025.github.io/blog/js014/</guid>
-      <description>本篇要介紹的是，將其他的數據類型轉會為數字 Boolean
+      <description>本篇要介紹的是，將其他的數據類型轉會為布林值 Boolean
 若將其他的數據類型，轉化為布林值 Boolean
 則會使用函數：Boolean()
 其各類型轉換特性如下：
