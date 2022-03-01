@@ -8,6 +8,19 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://KPW10452025.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>JS 課程016 一元運算符</title>
+      <link>https://KPW10452025.github.io/blog/js016/</link>
+      <pubDate>Wed, 02 Mar 2022 06:45:33 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js016/</guid>
+      <description>本篇要介紹的是，一元運算符之簡介
+何謂運算符？
+運算符：亦可稱作操作符，可對一個或多個值進行運算
+而一元運算符，及為只需要一個值就能操作的運算符
+ 正值 +    不會對數字產生影響</description>
+    </item>
+    
+    <item>
       <title>JS 課程015 算數運算符</title>
       <link>https://KPW10452025.github.io/blog/js015/</link>
       <pubDate>Tue, 01 Mar 2022 21:20:04 +0800</pubDate>
