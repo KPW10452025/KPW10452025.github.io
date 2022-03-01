@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>Webb Kuo Blogs</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="JS 中各種常用算數運算符的使用及隱士轉換簡介">
+  <meta name="author" content="Webb">
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://KPW10452025.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://KPW10452025.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://KPW10452025.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://KPW10452025.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://KPW10452025.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://KPW10452025.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://KPW10452025.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://KPW10452025.github.io"><img class="img-fluid"
+          src="https://KPW10452025.github.io/images/logo7.png" alt="Webb Kuo Blogs"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/powei_kuo/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/KPW10452025"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/bowen-kuo-566199212/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://KPW10452025.github.io"><img class="img-fluid"
+            src="https://KPW10452025.github.io/images/logo7.png" alt="Webb Kuo Blogs"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://KPW10452025.github.io/about/">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://KPW10452025.github.io/blog/">Post</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://KPW10452025.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/javascript%e8%aa%b2%e7%a8%8b"
+          class="text-primary">Java script課程</a>
+        
+        <h2>JS 課程015 算數運算符</h2>
+        <div class="mb-3 post-meta">
+          <span>By Webb</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          
+          <span>2022-03-01</span>
+          
+        </div>
+
+        
+        
+
+        <div class="content mb-5">
+          <p>本篇要介紹的是，各種常用算數運算符在 JS 中的效果</p>
+<p>何謂運算符？</p>
+<p>運算符：亦可稱作操作符，可對一個或多個值進行運算</p>
+<p>前面課程提到的 typeof 就是一個運算符</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#8b008b;font-weight:bold">var</span> a = <span style="color:#b452cd">123</span>;
+<span style="color:#8b008b;font-weight:bold">var</span> result = <span style="color:#8b008b;font-weight:bold">typeof</span> a;
+console.log(result); <span style="color:#228b22">// number 
+</span><span style="color:#228b22"></span>console.log(<span style="color:#8b008b;font-weight:bold">typeof</span> result); <span style="color:#228b22">// string 由此可知，typeof 的返回值是字符串
+</span></code></pre></div><hr>
+<p>算術運算符 + - * / %</p>
+<ul>
+<li><strong>加法</strong></li>
+</ul>
+<p>當使用算術運算符對非數字的值進行運算時，會自動將這些值轉換為數字再進行運算</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#8b008b;font-weight:bold">var</span> a = <span style="color:#b452cd">10</span>;
+<span style="color:#8b008b;font-weight:bold">var</span> result = a + <span style="color:#b452cd">2</span>;
+console.log(result); <span style="color:#228b22">// 12
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> result = <span style="color:#8b008b;font-weight:bold">true</span> + <span style="color:#b452cd">1</span>;
+console.log(result); <span style="color:#228b22">// 2 
+</span><span style="color:#228b22">// true = 1
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> result = <span style="color:#8b008b;font-weight:bold">true</span> +<span style="color:#8b008b;font-weight:bold">false</span>;
+console.log(result); <span style="color:#228b22">// 1
+</span><span style="color:#228b22">// false = 0
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> result = <span style="color:#b452cd">3</span> + <span style="color:#8b008b;font-weight:bold">null</span>
+console.log(result); <span style="color:#228b22">// 3
+</span><span style="color:#228b22">// null = 0
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> result = <span style="color:#b452cd">123</span> + <span style="color:#8b008b;font-weight:bold">NaN</span>;
+console.log(result); <span style="color:#228b22">// NaN
+</span><span style="color:#228b22">// 任何值與 NaN 進行運算都會得到 NaN
+</span></code></pre></div><p>任何值與字符串做 + 運算，都會先轉換成字符串後拼接</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#8b008b;font-weight:bold">var</span> result = <span style="color:#cd5555">&#34;123&#34;</span> + <span style="color:#cd5555">&#34;456&#34;</span>;
+console.log(result); <span style="color:#228b22">// 123456
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> result = <span style="color:#cd5555">&#34;123&#34;</span> + <span style="color:#b452cd">123</span>
+console.log(result); <span style="color:#228b22">// 123123
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> result = <span style="color:#cd5555">&#34;號碼&#34;</span> + <span style="color:#b452cd">123</span>;
+console.log(result); <span style="color:#228b22">// 號碼123
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> result = <span style="color:#cd5555">&#34;號碼&#34;</span> + <span style="color:#8b008b;font-weight:bold">true</span>;
+console.log(result); <span style="color:#228b22">// 號碼true
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> result = <span style="color:#cd5555">&#34;號碼&#34;</span> + <span style="color:#8b008b;font-weight:bold">NaN</span>;
+console.log(result); <span style="color:#228b22">// 號碼NaN
+</span><span style="color:#228b22">// 結果並不是 NaN
+</span></code></pre></div><p>可以運用此特性，將任意類型數據轉換為字符串 String</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#8b008b;font-weight:bold">var</span> result = <span style="color:#b452cd">333</span>;
+result = result + <span style="color:#cd5555">&#34;&#34;</span>;
+console.log(<span style="color:#8b008b;font-weight:bold">typeof</span> result); <span style="color:#228b22">// string
+</span><span style="color:#228b22"></span>console.log(result); <span style="color:#228b22">// 333
+</span></code></pre></div><p>這是一種「隱式」的類型轉換<br>
+實際上，系統有自動調用 String() 函數<br>
+<code>result = result + &quot;&quot;</code><br>
+<code>result = String(result)</code> <br>
+以上兩者本質一樣，但「隱式」轉換會表示的更簡單一些</p>
+<ul>
+<li><strong>減法</strong></li>
+</ul>
+<p>除了 NaN 與 undefined 以外，都會強制轉換為數字後運算</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">100</span> - <span style="color:#b452cd">1</span>;
+console.log(c); <span style="color:#228b22">// 99
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">100</span> - <span style="color:#cd5555">&#34;3&#34;</span>;
+console.log(c); <span style="color:#228b22">// 97
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">100</span> - <span style="color:#8b008b;font-weight:bold">true</span>;
+console.log(c); <span style="color:#228b22">// 99
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">200</span> - <span style="color:#8b008b;font-weight:bold">false</span>;
+console.log(c); <span style="color:#228b22">// 200
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">100</span> - <span style="color:#8b008b;font-weight:bold">NaN</span>;
+console.log(c); <span style="color:#228b22">// NaN
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">100</span> - <span style="color:#8b008b;font-weight:bold">undefined</span>;
+console.log(c); <span style="color:#228b22">// NaN
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#cd5555">&#34;100&#34;</span> - <span style="color:#cd5555">&#34;3&#34;</span>;
+console.log(c); <span style="color:#228b22">// 97
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#cd5555">&#34;100&#34;</span> - <span style="color:#8b008b;font-weight:bold">true</span>;
+console.log(c); <span style="color:#228b22">// 99
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#8b008b;font-weight:bold">true</span> - <span style="color:#cd5555">&#34;3&#34;</span>;
+console.log(c); <span style="color:#228b22">// -3
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#cd5555">&#34;100&#34;</span> - <span style="color:#cd5555">&#34;apple&#34;</span>;
+console.log(c); <span style="color:#228b22">// NaN
+</span></code></pre></div><ul>
+<li><strong>乘法</strong></li>
+</ul>
+<p>除了 NaN 與 undefined 以外，都會強制轉換為數字後運算</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">100</span> * <span style="color:#b452cd">3</span>;
+console.log(c); <span style="color:#228b22">// 300
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">100</span> * <span style="color:#cd5555">&#34;3&#34;</span>;
+console.log(c); <span style="color:#228b22">// 300
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">100</span> * <span style="color:#8b008b;font-weight:bold">false</span>;
+console.log(c); <span style="color:#228b22">// 0
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">100</span> * <span style="color:#8b008b;font-weight:bold">NaN</span>;
+console.log(c); <span style="color:#228b22">// NaN
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">100</span> * <span style="color:#8b008b;font-weight:bold">undefined</span>;
+console.log(c); <span style="color:#228b22">// NaN
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#cd5555">&#34;apple&#34;</span> * <span style="color:#8b008b;font-weight:bold">true</span>;
+console.log(c) <span style="color:#228b22">// NaN
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#cd5555">&#34;apple&#34;</span> * <span style="color:#b452cd">3</span>;
+console.log(c) <span style="color:#228b22">// NaN
+</span></code></pre></div><ul>
+<li><strong>除法</strong></li>
+</ul>
+<p>除了 NaN 與 undefined 以外，都會強制轉換為數字後運算</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">20</span> / <span style="color:#b452cd">5</span>;
+console.log(c); <span style="color:#228b22">// 4
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">20</span> / <span style="color:#cd5555">&#34;5&#34;</span>;
+console.log(c); <span style="color:#228b22">// 4
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">20</span> / <span style="color:#8b008b;font-weight:bold">true</span>;
+console.log(c); <span style="color:#228b22">// 20
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">20</span> / <span style="color:#8b008b;font-weight:bold">NaN</span>;
+console.log(c); <span style="color:#228b22">// NaN
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">20</span> / <span style="color:#8b008b;font-weight:bold">undefined</span>;
+console.log(c); <span style="color:#228b22">// NaN
+</span></code></pre></div><hr>
+<p>由上面所有的例子可以發現 - * / 都會強制轉換成數字 number 進行運算<br>
+可以運用此特性，將任意類型數據轉換為數字 number<br>
+原理和 Number() 函數一樣，為「隱式」類型轉換</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">ar c = <span style="color:#cd5555">&#34;123&#34;</span> - <span style="color:#b452cd">0</span>;
+console.log(<span style="color:#8b008b;font-weight:bold">typeof</span> c); <span style="color:#228b22">// number
+</span><span style="color:#228b22"></span>console.log(c); <span style="color:#228b22">// 123
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#cd5555">&#34;123&#34;</span> * <span style="color:#b452cd">1</span>;
+console.log(<span style="color:#8b008b;font-weight:bold">typeof</span> c); <span style="color:#228b22">// number
+</span><span style="color:#228b22"></span>console.log(c); <span style="color:#228b22">// 123
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#cd5555">&#34;123&#34;</span> / <span style="color:#b452cd">1</span>;
+console.log(<span style="color:#8b008b;font-weight:bold">typeof</span> c); <span style="color:#228b22">// number
+</span><span style="color:#228b22"></span>console.log(c); <span style="color:#228b22">// 123
+</span></code></pre></div><hr>
+<ul>
+<li><strong>取模運算 modulus</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">9</span> % <span style="color:#b452cd">3</span>;
+console.log(c); <span style="color:#228b22">// 0 
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">9</span> % <span style="color:#b452cd">5</span>;
+console.log(c); <span style="color:#228b22">// 4  
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">9</span> % <span style="color:#8b008b;font-weight:bold">true</span>;
+console.log(c); <span style="color:#228b22">// 0  
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#b452cd">9</span> % <span style="color:#cd5555">&#34;6&#34;</span>;
+console.log(c); <span style="color:#228b22">// 3  
+</span></code></pre></div><hr>
+
+        </div>
+
+        
+        
+        <script src="https://utteranc.es/client.js"
+          repo="KPW10452025/KPW10452025.github.io"
+          issue-term="title"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://KPW10452025.github.io"><img src="https://KPW10452025.github.io/images/logo7.png" alt="Webb Kuo Blogs"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:kuopowei@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>kuopowei@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/powei_kuo/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/KPW10452025">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/bowen-kuo-566199212/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/git%e7%9b%b8%e9%97%9c/">Git相關</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/javascript%e8%aa%b2%e7%a8%8b/">Javascript課程</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python%e7%9b%b8%e9%97%9c/">Python相關</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/terminal%e8%aa%9e%e6%b3%95%e7%9b%b8%e9%97%9c/">Terminal語法相關</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e5%a4%a7%e5%89%8d%e7%ab%af%e7%9b%b8%e9%97%9c/">大前端相關</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://KPW10452025.github.io/about/">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://KPW10452025.github.io/blog/">Post</a></li>
+          
+        </ul>
+      </div>
+      
+      
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://KPW10452025.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://KPW10452025.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/search/mark.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://KPW10452025.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

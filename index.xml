@@ -6,7 +6,20 @@
     <description>Recent content on Webb Kuo Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 01 Mar 2022 06:42:00 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 21:20:04 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS 課程015 算數運算符</title>
+      <link>https://KPW10452025.github.io/blog/js015/</link>
+      <pubDate>Tue, 01 Mar 2022 21:20:04 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js015/</guid>
+      <description>本篇要介紹的是，各種常用算數運算符在 JS 中的效果
+何謂運算符？
+運算符：亦可稱作操作符，可對一個或多個值進行運算
+前面課程提到的 typeof 就是一個運算符
+var a = 123; var result = typeof a; console.</description>
+    </item>
+    
     <item>
       <title>JS 課程014 強制類型轉換之 Boolean()函數</title>
       <link>https://KPW10452025.github.io/blog/js014/</link>
