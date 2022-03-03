@@ -8,6 +8,17 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://KPW10452025.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>JS 課程020 非布林值的「與」&amp;&amp; 及「或」||</title>
+      <link>https://KPW10452025.github.io/blog/js020/</link>
+      <pubDate>Thu, 03 Mar 2022 13:03:26 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js020/</guid>
+      <description>對非布林值進行「與」&amp;amp;&amp;amp; 及「或」|| 運算時
+系統會先將其轉會為布林值後再進行運算，在返回原值
+  true &amp;amp;&amp;amp; true  若兩個值經轉換後都為 true 則會返回後者</description>
+    </item>
+    
+    <item>
       <title>JS 課程019 邏輯運算符</title>
       <link>https://KPW10452025.github.io/blog/js019/</link>
       <pubDate>Thu, 03 Mar 2022 06:37:27 +0800</pubDate>
