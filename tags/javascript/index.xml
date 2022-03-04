@@ -6,7 +6,16 @@
     <description>Recent content in javascript on Webb Kuo Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 04 Mar 2022 12:13:19 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2022 13:27:16 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS 課程023 相等運算符</title>
+      <link>https://KPW10452025.github.io/blog/js023/</link>
+      <pubDate>Fri, 04 Mar 2022 13:27:16 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js023/</guid>
+      <description>== 相等（只比較值，不比較類型，類型不同時會自動轉換類型） != 不相等（只比較值，不比較類型，類型不同時會自動轉換類型） === 全相等（比較值，也比較類型） !== 不全相等（比較值，也比較類型）    相等運算符 ==  使用 == 來做相等運算，比較兩個值是否相等</description>
+    </item>
+    
     <item>
       <title>JS 課程022 關係運算符</title>
       <link>https://KPW10452025.github.io/blog/js022/</link>

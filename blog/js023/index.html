@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>Webb Kuo Blogs</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="相等==、不相等!=、全相等===、不全相等!== 之簡介">
+  <meta name="author" content="Webb">
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://KPW10452025.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://KPW10452025.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://KPW10452025.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://KPW10452025.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://KPW10452025.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://KPW10452025.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://KPW10452025.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://KPW10452025.github.io"><img class="img-fluid"
+          src="https://KPW10452025.github.io/images/logo7.png" alt="Webb Kuo Blogs"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/powei_kuo/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/KPW10452025"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/bowen-kuo-566199212/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://KPW10452025.github.io"><img class="img-fluid"
+            src="https://KPW10452025.github.io/images/logo7.png" alt="Webb Kuo Blogs"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://KPW10452025.github.io/about/">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://KPW10452025.github.io/blog/">Post</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://KPW10452025.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/javascript%e8%aa%b2%e7%a8%8b"
+          class="text-primary">Java script課程</a>
+        
+        <h2>JS 課程023 相等運算符</h2>
+        <div class="mb-3 post-meta">
+          <span>By Webb</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          
+          <span>2022-03-04</span>
+          
+        </div>
+
+        
+        
+
+        <div class="content mb-5">
+          <ol>
+<li>== 相等（只比較值，不比較類型，類型不同時會自動轉換類型）</li>
+<li>!= 不相等（只比較值，不比較類型，類型不同時會自動轉換類型）</li>
+<li>=== 全相等（比較值，也比較類型）</li>
+<li>!== 不全相等（比較值，也比較類型）</li>
+</ol>
+<hr>
+<ul>
+<li><strong>相等運算符 ==</strong></li>
+</ul>
+<p>使用 == 來做相等運算，比較兩個值是否相等</p>
+<p>在 JS 中 == 並不會比較類型，如果類型不同，系統會自動轉換並比較</p>
+<p>如果相等會回傳 true</p>
+<p>如果不相等會回傳 false</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#8b008b;font-weight:bold">var</span> a = <span style="color:#b452cd">10</span>;
+result = a == <span style="color:#b452cd">10</span>;
+console.log(result) <span style="color:#228b22">// true
+</span><span style="color:#228b22"></span>
+<span style="color:#8b008b;font-weight:bold">var</span> a = <span style="color:#b452cd">11</span>;
+console.log(a == <span style="color:#b452cd">11</span>); <span style="color:#228b22">// true
+</span></code></pre></div><p><strong>注意：系統並不一定是轉成數字 Number 進行比較</strong></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">console.log(<span style="color:#cd5555">&#34;1&#34;</span> == <span style="color:#b452cd">1</span>); <span style="color:#228b22">// true
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#cd5555">&#34;apple&#34;</span> == <span style="color:#b452cd">1</span>); <span style="color:#228b22">// false
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#8b008b;font-weight:bold">true</span> == <span style="color:#b452cd">1</span>); <span style="color:#228b22">// true
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#8b008b;font-weight:bold">true</span> == <span style="color:#cd5555">&#34;hello&#34;</span>); <span style="color:#228b22">// false
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#8b008b;font-weight:bold">null</span> == <span style="color:#b452cd">0</span>); <span style="color:#228b22">// false
+</span></code></pre></div><p>undefined 衍生自 null，所以這兩個值做相等判斷時會出現 true</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">console.log(<span style="color:#8b008b;font-weight:bold">null</span> == <span style="color:#8b008b;font-weight:bold">undefined</span>); <span style="color:#228b22">// true
+</span></code></pre></div><p>NaN不和任何值相等，包括自己</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">console.log(<span style="color:#8b008b;font-weight:bold">NaN</span> == <span style="color:#b452cd">0</span>); <span style="color:#228b22">// false
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#8b008b;font-weight:bold">NaN</span> == <span style="color:#cd5555">&#34;1&#34;</span>); <span style="color:#228b22">// false
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#8b008b;font-weight:bold">NaN</span> == <span style="color:#8b008b;font-weight:bold">false</span>); <span style="color:#228b22">// false
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#8b008b;font-weight:bold">NaN</span> == <span style="color:#8b008b;font-weight:bold">null</span>); <span style="color:#228b22">// false
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#8b008b;font-weight:bold">NaN</span> == <span style="color:#8b008b;font-weight:bold">undefined</span>); <span style="color:#228b22">// false
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#8b008b;font-weight:bold">NaN</span> == <span style="color:#8b008b;font-weight:bold">NaN</span>); <span style="color:#228b22">// false
+</span></code></pre></div><p>如果今天要判斷一個變數是否為 NaN 怎麼辦？</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#8b008b;font-weight:bold">var</span> b = <span style="color:#8b008b;font-weight:bold">NaN</span>;
+console.log(b == <span style="color:#8b008b;font-weight:bold">NaN</span>); <span style="color:#228b22">// false 此法無法判斷
+</span></code></pre></div><p>可以通過 <code>isNaN()</code> 函數來判斷一個值是否是 NaN</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#8b008b;font-weight:bold">var</span> c = <span style="color:#8b008b;font-weight:bold">NaN</span>;
+console.log(<span style="color:#658b00">isNaN</span>(c)) <span style="color:#228b22">// true 判斷成功
+</span></code></pre></div><hr>
+<ul>
+<li><strong>不相等運算符 !=</strong></li>
+</ul>
+<p>使用 != 來做不相等運算</p>
+<p>用來比較兩個值是否不相等</p>
+<p>可以不同類型進行比較</p>
+<p>如果不相等會回傳 true</p>
+<p>如果相等會回傳 false</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">console.log(<span style="color:#b452cd">10</span> != <span style="color:#b452cd">5</span>); <span style="color:#228b22">// true
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#b452cd">10</span> != <span style="color:#b452cd">10</span>); <span style="color:#228b22">// false
+</span></code></pre></div><p>當使用兩種不同類型時，會自動轉換成相同類型進行比較</p>
+<p>注意：系統並不一定是轉成數字 Number 進行比較</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">console.log(<span style="color:#cd5555">&#34;apple&#34;</span> != <span style="color:#b452cd">5</span>); <span style="color:#228b22">// true
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#b452cd">1</span> != <span style="color:#cd5555">&#34;1&#34;</span>); <span style="color:#228b22">// false
+</span></code></pre></div><hr>
+<ul>
+<li><strong>全等於運算符</strong></li>
+</ul>
+<p>使用 === 來做全等於運算符</p>
+<p>與相等 == 不一樣的是，比較時不會做類型轉換</p>
+<p>用來比較兩個值是否相等，並且連類型皆相等</p>
+<p>如果全相等，值相等且類型相等，會回傳 true</p>
+<p>其餘回傳 false</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">console.log(<span style="color:#cd5555">&#34;apple&#34;</span> === <span style="color:#cd5555">&#34;apple&#34;</span>); <span style="color:#228b22">// true
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#b452cd">1</span> === <span style="color:#b452cd">1</span>); <span style="color:#228b22">// true
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#8b008b;font-weight:bold">true</span> == <span style="color:#b452cd">1</span>); <span style="color:#228b22">// true
+</span><span style="color:#228b22"></span>console.log(<span style="color:#8b008b;font-weight:bold">true</span> === <span style="color:#b452cd">1</span>); <span style="color:#228b22">// false
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#8b008b;font-weight:bold">null</span> == <span style="color:#8b008b;font-weight:bold">undefined</span>); <span style="color:#228b22">// true
+</span><span style="color:#228b22"></span>console.log(<span style="color:#8b008b;font-weight:bold">null</span> === <span style="color:#8b008b;font-weight:bold">undefined</span>); <span style="color:#228b22">// false
+</span></code></pre></div><hr>
+<ul>
+<li><strong>不全等於運算符</strong></li>
+</ul>
+<p>使用 !== 來做不全等於運算符</p>
+<p>與相等 != 不一樣的是，比較時不會做類型轉換</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">console.log(<span style="color:#8b008b;font-weight:bold">true</span> != <span style="color:#b452cd">1</span>) <span style="color:#228b22">// false
+</span><span style="color:#228b22"></span>console.log(<span style="color:#8b008b;font-weight:bold">true</span> !== <span style="color:#b452cd">1</span>) <span style="color:#228b22">// true
+</span><span style="color:#228b22"></span>
+console.log(<span style="color:#8b008b;font-weight:bold">null</span> != <span style="color:#8b008b;font-weight:bold">undefined</span>) <span style="color:#228b22">// false
+</span><span style="color:#228b22"></span>console.log(<span style="color:#8b008b;font-weight:bold">null</span> !== <span style="color:#8b008b;font-weight:bold">undefined</span>) <span style="color:#228b22">// true
+</span></code></pre></div><hr>
+
+        </div>
+
+        
+        
+        <script src="https://utteranc.es/client.js"
+          repo="KPW10452025/KPW10452025.github.io"
+          issue-term="title"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://KPW10452025.github.io"><img src="https://KPW10452025.github.io/images/logo7.png" alt="Webb Kuo Blogs"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:kuopowei@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>kuopowei@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/powei_kuo/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/KPW10452025">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/bowen-kuo-566199212/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/git%e7%9b%b8%e9%97%9c/">Git相關</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/javascript%e8%aa%b2%e7%a8%8b/">Javascript課程</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python%e7%9b%b8%e9%97%9c/">Python相關</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/terminal%e8%aa%9e%e6%b3%95%e7%9b%b8%e9%97%9c/">Terminal語法相關</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e5%a4%a7%e5%89%8d%e7%ab%af%e7%9b%b8%e9%97%9c/">大前端相關</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://KPW10452025.github.io/about/">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://KPW10452025.github.io/blog/">Post</a></li>
+          
+        </ul>
+      </div>
+      
+      
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://KPW10452025.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://KPW10452025.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/search/mark.js"></script>
+
+<script src="https://KPW10452025.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://KPW10452025.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
