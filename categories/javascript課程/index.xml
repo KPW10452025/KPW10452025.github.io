@@ -6,7 +6,18 @@
     <description>Recent content in JavaScript課程 on Webb Kuo Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 03 Mar 2022 21:19:23 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/categories/javascript%E8%AA%B2%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2022 12:13:19 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/categories/javascript%E8%AA%B2%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS 課程022 關係運算符</title>
+      <link>https://KPW10452025.github.io/blog/js022/</link>
+      <pubDate>Fri, 04 Mar 2022 12:13:19 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js022/</guid>
+      <description>關係運算符
+用於比較兩個值的大小關係，並回傳比較後的結果： true false
+  常見的符號有   大於 &amp;gt; 大於等於 &amp;gt;= 小於 &amp;lt; 小於等於 &amp;lt;=  var result = 2 &amp;gt; 1; console.</description>
+    </item>
+    
     <item>
       <title>JS 課程021 賦值運算符</title>
       <link>https://KPW10452025.github.io/blog/js021/</link>
