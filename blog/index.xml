@@ -8,6 +8,18 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://KPW10452025.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>JS 課程024 條件運算符</title>
+      <link>https://KPW10452025.github.io/blog/js024/</link>
+      <pubDate>Tue, 22 Mar 2022 20:44:17 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js024/</guid>
+      <description>條件運算符，亦稱為三元運算符
+語法：條件表達式 ? 語句1 : 語句2
+ 執行流程：條件運算符在執行時，首先對條件表達式進行求值：
+  如果該值為 true 則執行語句1 並返回執行結果</description>
+    </item>
+    
+    <item>
       <title>JS 課程023 相等運算符</title>
       <link>https://KPW10452025.github.io/blog/js023/</link>
       <pubDate>Fri, 04 Mar 2022 13:27:16 +0800</pubDate>
