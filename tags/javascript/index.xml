@@ -6,7 +6,20 @@
     <description>Recent content in javascript on Webb Kuo Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 22 Mar 2022 20:44:17 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Mar 2022 20:22:34 +0800</lastBuildDate><atom:link href="https://KPW10452025.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS 課程025 代碼塊</title>
+      <link>https://KPW10452025.github.io/blog/js025/</link>
+      <pubDate>Thu, 24 Mar 2022 20:22:34 +0800</pubDate>
+      
+      <guid>https://KPW10452025.github.io/blog/js025/</guid>
+      <description>代碼是由一條一條的語句構成的
+語句是按照自上向下的順序一句一句執行的
+在 JS 中可以使用大括號 { } 對語句進行分組
+一組語句中的代碼，要不是激活，就是都不激活
+同一個 { } 中的語句我們稱為一組「語句」</description>
+    </item>
+    
     <item>
       <title>JS 課程024 條件運算符</title>
       <link>https://KPW10452025.github.io/blog/js024/</link>
